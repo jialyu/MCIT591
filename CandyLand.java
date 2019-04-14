@@ -29,7 +29,7 @@ public class CandyLand {
 			Square newSquare = board.move(player1.getBoardLocation(), moveSpaces);
 			player1.setBoardLocation(newSquare.getBoardLocation());
 			//5. announce the color and location of the square the player has landed on
-			System.out.println("Player 1, you are now on a " + newSquare.getColor() + " square at location " + player2.getBoardLocation()
+			System.out.println("phil, you are now on a " + newSquare.getColor() + " square at location " + player2.getBoardLocation()
 			+ " on the board");
 			//check if player has won
 			if (player1.getBoardLocation() == board.END_OF_BOARD) {
