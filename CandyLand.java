@@ -21,7 +21,7 @@ public class CandyLand {
 		//7. Play is continuous
 		while(continuePlay) {
 			//Player 1 turn
-			System.out.println("Player 1, press any key to generate your move" + "on the board");
+			System.out.println("phil, press any key to generate your move" + "on the board");
 			scan.nextLine();
 			//3. Generate a random number between 1 and 18 for player to move
 			int moveSpaces = generator.nextInt(18) + 1;
