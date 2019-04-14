@@ -50,7 +50,7 @@ public class CandyLand {
 			}
 		}
 		//8. Announce winner
-		System.out.println("You win! You've reached the end of the board");
+		System.out.println("You win!");
 		scan.close();
 		
 	}
