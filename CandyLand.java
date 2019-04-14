@@ -50,7 +50,7 @@ public class CandyLand {
 			}
 		}
 		//8. Announce winner
-		System.out.println("Lucky Dog! You've reached the end of the board");
+		System.out.println("Lucky Dog! You've reached the end of the board. LOL");
 		scan.close();
 		
 	}
