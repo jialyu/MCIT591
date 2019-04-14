@@ -21,7 +21,7 @@ public class CandyLand {
 		//7. Play is continuous
 		while(continuePlay) {
 			//Player 1 turn
-			System.out.println("phil, press any key to generate your move" + "on the board");
+			System.out.println("My friend Player 1, press any key to generate your move" + "on the board");
 			scan.nextLine();
 			//3. Generate a random number between 1 and 18 for player to move
 			int moveSpaces = generator.nextInt(18) + 1;
@@ -29,7 +29,7 @@ public class CandyLand {
 			Square newSquare = board.move(player1.getBoardLocation(), moveSpaces);
 			player1.setBoardLocation(newSquare.getBoardLocation());
 			//5. announce the color and location of the square the player has landed on
-			System.out.println("phil, you are now on a " + newSquare.getColor() + " square at location " + player2.getBoardLocation()
+			System.out.println("Hello Player 1, you are now on a " + newSquare.getColor() + " square at location " + player2.getBoardLocation()
 			+ " on the board");
 			//check if player has won
 			if (player1.getBoardLocation() == board.END_OF_BOARD) {
